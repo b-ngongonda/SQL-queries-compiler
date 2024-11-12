@@ -1,4 +1,4 @@
-# MySQL SSH Query Executor
+# MySQL SSH Query Compiler
 
 This Python script allows you to execute multiple SQL queries stored in SQL files against a MySQL database via an SSH tunnel. The script connects to a remote MySQL database through an SSH tunnel and executes SQL queries for specified locations. The locations are passed dynamically to the SQL queries using the `@location` parameter in the SQL files.
 
